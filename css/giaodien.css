@@ -1,0 +1,429 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+.ctn_right_qly {
+    width: calc(100% - 20%);
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+}
+.left_header_qly {
+    display: none;
+}
+.left_header_qly {
+    float: left;
+    padding: 21px 15px 20px 15px;
+}
+.font_14 {
+    font-size: 14px;
+    line-height: 16.41px;
+    font-weight: 400px;
+}
+.share_clr_one {
+    color: #474747;
+}
+.list_all_qly {
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+}
+.top_share {
+    width: unset;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    position: relative;
+    display: none;
+}
+.ctn_chile_tow, .ctn_detl_tab, .tab_content .tab_label, .tab_content .tab_label h3, .tab_content .tab_label p, .content_delt_all, .delt_titl_ud, .delt_titl_ud .detl_nv_count, .see_nv_all, .avt_detl_tab {
+    width: 100%;
+    float: left;
+}
+.search_qly, .search_qly {
+    display: flex;
+    justify-content: space-between;
+}
+.search_qly, .search_qly .tim-kiem, .search_qly .tim-kiem .form-serach, .ctn_chile_one {
+    width: 100%;
+    float: left;
+}
+.detl_nv_table, .ctn_chile_three {
+    width: 100%;
+    float: left;
+}
+    .tab_bor_bottom {
+        border-bottom: 3px solid #CCCCCC;
+        margin-bottom: 10px;
+    }
+    .ctn_nv_one .tab_titl {
+        margin-right: 30px;
+        float: left;
+    }
+    label.tab_label.active {
+        position: relative;
+    }
+    label.tab_label.active::before {
+        content: "";
+        position: absolute;
+        background: #2A38A2;
+        border-radius: 100px;
+        width: 60px;
+        top: 21px;
+        left: 50px;
+        bottom: 3px;
+        height: 3px;
+        z-index: 2;
+    }
+    .ctn_nv_one .tab_sett_one .tab_titl:nth-child(1) p {
+        margin-left: 20px;
+    }
+    .tab_titl .tab_label.active p {
+        color: #2A38A2;
+        padding-bottom: 5px;
+        cursor: unset;
+    }
+    .tab_titl .tab_label p {
+        cursor: pointer;
+        padding-bottom: 5px;
+    }
+
+    .ctn_selt {
+        float: left;
+        width: 100%;
+        position: relative;
+        display: none;
+    }
+    .content_selt {
+        width: 313px;
+        float: left;
+        margin-right: 15px;
+        margin-bottom: 20px;
+    }
+    .content_selt select {
+        padding: 10px 38px 10px 15px;
+    }
+    .select2-hidden-accessible {
+        border: 0 !important;
+        clip: rect(0 0 0 0) !important;
+        -webkit-clip-path: inset(50%) !important;
+        clip-path: inset(50%) !important;
+        height: 1px !important;
+        overflow: hidden !important;
+        padding: 0 !important;
+        position: absolute !important;
+        width: 1px !important;
+        white-space: nowrap !important;
+    }
+    .select2-container {
+        box-sizing: border-box;
+        display: inline-block;
+        margin: 0;
+        position: relative;
+        vertical-align: middle;
+    }
+    .share_search {
+        position: absolute;
+        float: right;
+        top: 7px;
+        right: 3px;
+        background: #FFFFFF;
+        width: 23px;
+        height: 19px;
+    }
+    .content_selt .select2-container--default .select2-selection--single {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        border: 0;
+    }
+    .content_selt .select2-container .select2-selection--single {
+        height: 36px;
+    }
+    .select2-container--default .select2-selection--single {
+        background-color: #fff;
+        border: 1px solid #aaa;
+        border-radius: 4px;
+    }
+    .select2-container .select2-selection--single {
+        box-sizing: border-box;
+        cursor: pointer;
+        display: block;
+        height: 28px;
+        user-select: none;
+        -webkit-user-select: none;
+    }
+    .content_selt .select2-container--default .select2-selection--single .select2-selection__rendered {
+        line-height: 36px;
+        font-size: 14px;
+    }
+    .select2-container--default .select2-selection--single .select2-selection__rendered {
+        color: #444;
+        line-height: 28px;
+    }
+    .select2-container .select2-selection--single .select2-selection__rendered {
+        display: block;
+        padding-left: 8px;
+        padding-right: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .select2-container--default .select2-selection--single .select2-selection__arrow {
+        height: 26px;
+        position: absolute;
+        top: 1px;
+        right: 1px;
+        width: 20px;
+    }
+    .content_selt .select2-container--default .select2-selection--single .select2-selection__arrow b {
+        margin-top: 2px;
+    }
+    .select2-container--default .select2-selection--single .select2-selection__arrow b {
+        border-color: #888 transparent transparent transparent;
+        border-style: solid;
+        border-width: 5px 4px 0 4px;
+        height: 0;
+        left: 50%;
+        margin-left: -4px;
+        margin-top: -2px;
+        position: absolute;
+        top: 50%;
+        width: 0;
+    }
+
+
+    .form_timkiem {
+        width: 420px;
+        float: left;
+        position: relative;
+    }
+    .search_qly .tim-kiem {
+        margin-bottom: 20px;
+    }
+    .search_qly .tim-kiem .form-serach {
+        padding: 9px 25px 9px 16px;
+        border: 1px solid #666666;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        outline: 0;
+    }
+    .share_form_select .select2-container .select2-selection--single {
+        height: 36px;
+        border: 1px solid #666666;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        font-size: 14px;
+    }
+    .share_form_select .select2-container--default .select2-selection--single .select2-selection__rendered {
+        line-height: 36px;
+    }
+
+    .detl_nv_table .ctn_delt_table {
+        width: 100%;
+        float: left;
+        border-radius: 10px;
+    }
+    .page_table_one {
+        width: 100%;
+        float: left;
+        border-collapse: collapse;
+    }
+    .share_thead {
+        width: 100%;
+    }
+    .share_bgr_one {
+        background: #4C5BD4;
+    }
+
+    th:last-child {
+        width: 10%;
+    }
+    .share_thead th:first-child {
+        border-top-left-radius: 10px;
+    }
+    .share_thead th {
+        padding: 16px 0px 15px 0px;
+        position: relative;
+        color: #000;
+    }
+    .tex_center {
+        text-align: center;
+    }
+    .share_clr_tow {
+        color: #FFFFFF;
+    }
+    .share_fsize_tow {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .cr_weight {
+        font-weight: 500;
+    }
+    .share_thead th::before {
+        content: "";
+        position: absolute;
+        float: left;
+        background: #FFFFFF;
+        width: 1px;
+        height: 85%;
+        top: 4px;
+        right: -1px;
+    }
+    .page_table_one tbody tr:nth-child(2n + 1) {
+        background: #FFFFFF;
+    }
+    .page_table_one tbody tr {
+        border-bottom: 1px solid #CCCCCC;
+    }
+    .page_table_one tbody td {
+        padding: 14px 10px 15.5px 10px;
+        border-right: 1px solid #CCCCCC;
+    }
+    #qly_nhanvien table a {
+        color: #474747;
+    }
+    table a {
+        color: #4C5BD4;
+    }
+    .d_flex {
+        display: flex;
+    }
+    .dflex_jc {
+        justify-content: center;
+    }
+    .d_flex {
+        display: flex;
+        align-items: center;
+    }
+    .share_clr_four {
+        color: #4C5BD4;
+    }
+    .share_cursor {
+        cursor: pointer;
+    }
+    .tabl_tuyc .tuy_chinh span img {
+        padding-right: 6px;
+    }
+    img {
+        object-fit: cover;
+    }
+    .tabl_tuyc .detl_tuychinh {
+        display: none;
+        background: #FFFFFF;
+        position: absolute;
+        top: 43px;
+        right: 40px;
+        width: 284px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(104, 72, 72, 0.2);
+        z-index: 3;
+    }
+    .tabl_tuyc .detl_tuychinh.active {
+        display: block;
+    }
+    .content_pop, .content_pop .navbar-nav {
+        width: 100%;
+        float: left;
+    }
+    .detl_tuychinh .nav-item {
+        list-style-type: none;
+        width: 100%;
+        float: left;
+        padding: 10px 12px;
+        cursor: pointer;
+    }
+    .btn_xanh {
+        background: #4C5BD4;
+        border: none;
+        color: white;
+    }
+    .btn_138 {
+        width: 138px;
+        height: 36px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .btn_dd {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        cursor: pointer;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        float: right;
+    }
+    .m_r10 {
+        margin-right: 10px;
+    }
+    
+    ul li {
+        list-style: none;
+    }
+    .detl_tuychinh .navbar-nav .nav-item .nav-child-item {
+        font-weight: unset;
+    }
+    .navbar-nav .nav-item .nav-child-item {
+        width: 100%;
+        float: left;
+        list-style-type: none;
+    }
+    .nav-item .nav-child-item .item_ic {
+        width: 11%;
+        float: left;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-right: 10px;
+    }
+    .page_table_one tbody td:last-child {
+        border-right: 0;
+    }
+    .page_table_one tbody .tabl_tuyc {
+        position: relative;
+    }
+    .page_table_one tbody td {
+        padding: 14px 10px 15.5px 10px;
+        border-right: 1px solid #CCCCCC;
+    }
+
+    .table_page {
+        width: 100%;
+        float: right;
+        margin-top: 20px;
+        padding-right: 50px;
+        margin-bottom: 20px;
+    }
+    .table_page .ctn_page_table {
+        text-align: right;
+        list-style-type: none;
+    }
+    .table_page .ctn_page_table li.active {
+        background: #4C5BD4;
+        color: #FFFFFF;
+    }
+    .table_page .ctn_page_table li {
+        display: inline-block;
+        margin: 0px 7.5px;
+        border: 1px solid #CCCCCC;
+        padding: 1px 5px;
+        font-size: 13px;
+        line-height: 15px;
+        color: #666666;
+        cursor: pointer;
+        border-radius: 4px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.02);
+    }
+    ul li {
+        list-style: none;
+    }
